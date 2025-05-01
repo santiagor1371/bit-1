@@ -1,0 +1,50 @@
+header{
+  background-color: black;
+  color: white;
+}
+.nav-link{
+  color: white;
+}
+
+main{
+  background: #000;
+}
+
+h1,h2,h4{
+  color: white;
+  font-family: "Cal Sans", sans-serif;
+  font-weight: 400px;
+  font-style: normal;
+}
+
+p{
+  color: white;
+  font-family: "Cal Sans", sans-serif;
+}
+.fondo-2{
+  background-image: url(/assets/bg-2.png);
+  background-size: 100%;
+}
+
+.col-5{
+  padding-top: 5%;
+  padding-right: 5%;
+}
+
+aside{
+  background-color: #000;
+}
+
+.col-12{
+  padding-top: 10%;
+  font-size: 50px;
+}
+
+footer{
+  background-color: black;
+}
+
+.img-f{
+  width: 30%;
+  padding-inline-end: 20;
+}
