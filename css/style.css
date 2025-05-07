@@ -48,3 +48,26 @@ footer{
   width: 30%;
   padding-inline-end: 20;
 }
+
+@media screen and (max-width: 576px) {
+.s1000r{
+  display: none;
+}
+.s1000rr{
+  display: none;
+}
+.s1000xr{
+  display: none;
+}
+}
+@media screen and (min-width: 576px) {
+  .s1000r-mobile{
+    display: none;
+  }
+  .s1000rr-mobile{
+    display: none;
+  }
+  .s1000xr-mobile{
+    display: none;
+  }
+  }
