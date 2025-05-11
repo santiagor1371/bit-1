@@ -8,39 +8,51 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-SgOJa3DmI69IUzQ2PVdRZhwQ+dy64/BUtbMJw1MZ8t5HZApcHrRKUc4W0kG879m7" crossorigin="anonymous">
     <link rel="stylesheet" href="./css/style.css">
 </head>
-<body>
+<body class="contacto">
   <header>
     <div class="container text-center">
       <div class="row">
         <div class="col">
           <nav class="nav nav-pills nav-fill">
             <a class="nav-link" href="./index.html">Inicio</a>
-            <a class="nav-link" href="./motos.html"> Caracteristicas de motos</a>
-            <a class="nav-link active" aria-current="page" href="./contacto.html">Contacto</a>
+            <a class="nav-link" href="./motos.html"> Características de motos</a>
+            <a class="nav-link active" aria-current="page" href="./contacto.html">Contácto</a>
           </nav>
         </div>
     </div>
   </header>
-  <main>
-    <div class="form-container">
-      <h2>Iniciar Sesión</h2>
-      <form id="loginForm">
-        <input type="email" placeholder="Correo electrónico" required />
-        <input type="password" placeholder="Contraseña" required />
-        <button type="submit">Entrar</button>
+  <div class="formulario">
+    <main class="container mt-5">
+      <h2 class="text-white">Formulario de Contacto</h2>
+      <form id="contactForm" class="bg-dark p-4 rounded">
+        <div class="mb-3">
+          <label for="name" class="form-label text-white">Nombre</label>
+          <input type="text" class="form-control" id="name" required />
+        </div>
+        <div class="mb-3">
+          <label for="email" class="form-label text-white">Correo Electrónico</label>
+          <input type="email" class="form-control" id="email" required />
+        </div>
+        <div class="mb-3">
+          <label for="message" class="form-label text-white">Mensaje</label>
+          <textarea class="form-control" id="message" rows="4" maxlength="500" required></textarea>
+          <div id="charCount" class="form-text text-white">0 / 500</div>
+        </div>
+        <button type="submit" class="btn btn-primary">Enviar</button>
       </form>
-    </div>
-  </main>
+    </main>
+
+  </div>
   <footer>
     <ul class="nav justify-content-end">
       <li class="nav-item">
         <a class="nav-link active" aria-current="page" href="./index.html">Inicio</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="./contacto.html">contacto</a>
+        <a class="nav-link" href="./contacto.html">contácto</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="./motos.html">Caracteristicas de motos</a>
+        <a class="nav-link" href="./motos.html">Características de motos</a>
       </li>
       <li class="nav-item">
         <a class="nav-link disabled" aria-disabled="true">Disabled</a>

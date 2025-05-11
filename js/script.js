@@ -1,33 +1,33 @@
+// Contador de caracteres y manejo del formulario de contacto
+document.addEventListener("DOMContentLoaded", function () {
+  const message = document.getElementById("message");
+  const charCount = document.getElementById("charCount");
 
-function sumar(a, b) {
-    const resultado = a + b;
-    console.log(`${a} + ${b} = ${resultado}`);
+  if (message && charCount) {
+    message.addEventListener("input", () => {
+      charCount.textContent = `${message.value.length} / 500`;
+    });
   }
-  
-  function restar(a, b) {
-    const resultado = a - b;
-    console.log(`${a} - ${b} = ${resultado}`);
+
+  const form = document.getElementById("contactForm");
+  if (form) {
+    form.addEventListener("submit", function (e) {
+      e.preventDefault();
+
+      // Obtener los valores del formulario
+      const name = document.getElementById("name").value;
+      const email = document.getElementById("email").value;
+      const msg = document.getElementById("message").value;
+
+      // Mostrar en la consola
+      console.log("Formulario enviado:");
+      console.log("Nombre:", name);
+      console.log("Correo:", email);
+      console.log("Mensaje:", msg);
+
+      // Limpiar formulario
+      form.reset();
+      charCount.textContent = "0 / 500";
+    });
   }
-  
-  function multiplicar(a, b) {
-    const resultado = a * b;
-    console.log(`${a} x ${b} = ${resultado}`);
-  }
-  
-  function dividir(a, b) {
-    if (b !== 0) {
-      const resultado = a / b;
-      console.log(`${a} / ${b} = ${resultado}`);
-    } else {
-      console.log("No se puede dividir entre cero");
-    }
-  }
-  
-  // Ejemplo de uso
-  const numero1 = 12;
-  const numero2 = 5;
-  
-  sumar(numero1, numero2);
-  restar(numero1, numero2);
-  multiplicar(numero1, numero2);
-  dividir(numero1, numero2);
+});

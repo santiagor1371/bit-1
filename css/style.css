@@ -49,6 +49,10 @@ footer{
   padding-inline-end: 20;
 }
 
+.contacto{
+  background-color: #000;
+}
+
 @media screen and (max-width: 576px) {
 .s1000r{
   display: none;
