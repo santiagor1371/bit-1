@@ -53,6 +53,10 @@ footer{
   background-color: #000;
 }
 
+.swal2-popup {
+  color: black !important;
+}
+
 @media screen and (max-width: 576px) {
 .s1000r{
   display: none;

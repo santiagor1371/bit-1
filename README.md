@@ -1,12 +1,12 @@
 # TEAM BMW MOTORRAD
 
-## Introducción
+## Descripción
 ---
-TEAM BMW MOTORRAD es una página dedicada a los amantes de las motos de alto cilindraje. Aquí encontrarás información sobre nuestras motocicletas, fechas de eventos, y un formulario de contacto para unirte al equipo oficial.
+TEAM BMW MOTORRAD es una página web diseñada para promocionar el equipo oficial de motociclismo BMW. El sitio ofrece información sobre las motocicletas, fechas de competencias, y un formulario de contacto para que los interesados puedan inscribirse o solicitar más información.
+El proyecto utiliza tecnologías como HTML, CSS, JavaScript y Bootstrap para lograr un diseño moderno, responsive y funcional.
 
 ---
-
-[Link de BMW MOTORRAD MOTORSPORT](https://www.motorsport.bmw-motorrad.com/en/home.html#/filter-all)
+Autor: Santiago Ospina Retavizca
 
 [Link de FIGMA](https://www.figma.com/design/yeTwlnpoAOfaVsXVQVxFlr/BMW-MOTORRAD?t=Gn9JUZc0Hc5VqUxW-1)
 
