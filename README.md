@@ -10,3 +10,4 @@ TEAM BMW MOTORRAD es una página dedicada a los amantes de las motos de alto cil
 
 [Link de FIGMA](https://www.figma.com/design/yeTwlnpoAOfaVsXVQVxFlr/BMW-MOTORRAD?t=Gn9JUZc0Hc5VqUxW-1)
 
+![wireframe](./assets/wireframe.jpeg)

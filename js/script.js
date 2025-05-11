@@ -1,3 +1,5 @@
+"use strict";
+
 // Contador de caracteres y manejo del formulario de contacto
 document.addEventListener("DOMContentLoaded", function () {
   const message = document.getElementById("message");
